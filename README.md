@@ -1,6 +1,6 @@
 
 
-<details id=1 open>
+<details id=1 close>
 <summary><h2>Estep one: Playground and Cheatsheet for Learning Python</h2></summary>
 
 > 🇺🇦 UKRAINE [IS BEING ATTACKED](https://war.ukraine.ua/) BY RUSSIAN ARMY. CIVILIANS ARE GETTING KILLED. RESIDENTIAL AREAS ARE GETTING BOMBED.
@@ -32,7 +32,7 @@ without launching them.
 
 > _You might also be interested in 🤖 [Interactive Machine Learning Experiments](https://github.com/trekhleb/machine-learning-experiments)_
 
-<details id=2 open>
+<details id=2 close>
 <summary><h2>Estep two: How to Use This Repository</h2></summary>
 
 Each Python script in this repository has the following structure:

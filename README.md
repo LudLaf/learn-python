@@ -1,5 +1,3 @@
-
-
 <details id=1 close>
 <summary><h2>Estep one: Playground and Cheatsheet for Learning Python</h2></summary>
 
@@ -71,7 +69,10 @@ So, normally you might want to do the following:
 - [Run tests](#testing-the-code) and [lint the code](#linting-the-code) to see if it work and is 
 written correctly.
 
-## h2 Table of Contents
+
+
+<details id=2 close>
+<summary><h2>Estep three: Table of Contents</h2></summary>
 
 1. **Getting Started**
     - [What is Python](src/getting_started/what_is_python.md)
@@ -140,6 +141,8 @@ written correctly.
     - [Data Compression](src/standard_libraries/test_zlib.py) (`zlib` library)
 12. **User input**
     - [Terminal input](src/user_input/test_input.py) (`input` statement)
+
+</details>
 
 ## h2 Prerequisites
 

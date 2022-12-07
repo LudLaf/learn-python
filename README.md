@@ -69,9 +69,7 @@ So, normally you might want to do the following:
 - [Run tests](#testing-the-code) and [lint the code](#linting-the-code) to see if it work and is 
 written correctly.
 
-
-
-<details id=2 close>
+<details id=3 close>
 <summary><h2>Estep three: Table of Contents</h2></summary>
 
 1. **Getting Started**

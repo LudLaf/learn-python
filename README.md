@@ -1,4 +1,4 @@
-# Playground and Cheatsheet for Learning Python
+# h1 Playground and Cheatsheet for Learning Python
 
 > 🇺🇦 UKRAINE [IS BEING ATTACKED](https://war.ukraine.ua/) BY RUSSIAN ARMY. CIVILIANS ARE GETTING KILLED. RESIDENTIAL AREAS ARE GETTING BOMBED.
 > - Help Ukraine via [National Bank of Ukraine](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)
@@ -10,24 +10,24 @@
 [![Build Status](https://travis-ci.org/trekhleb/learn-python.svg?branch=master)](https://travis-ci.org/trekhleb/learn-python)
 
 > This is a collection of Python scripts that are split by [topics](#table-of-contents) and contain 
-code examples with explanations, different use cases and links to further readings.
+code examples with explanations, different use cases and links to further reading.
 
 > _Read this in:_ [_Português_](README.pt-BR.md), [_Español_](README.es-ES.md), [_Traditional Chinese_](README.zh-TW.md).
 
 It is a **playground** because you may change or add the code to see how it works 
 and [test it out](#testing-the-code) using assertions. It also allows you 
 to [lint the code](#linting-the-code) you've wrote and check if it fits to Python code style guide.
-Altogether it might make your learning process to be more interactive and it might help you to keep 
-code quality pretty high from very beginning.
+Altogether, it might make your learning process to be more interactive and might help you to keep 
+code quality pretty high from the very beginning.
 
 It is a **cheatsheet** because you may get back to these code examples once you want to recap the 
-syntax of [standard Python statements and constructions](#table-of-contents). Also because the 
-code is full of assertions you'll be able to see expected functions/statements output right away
+syntax of [standard Python statements and constructions](#table-of-contents). Also, because the 
+code is full of assertions, you'll be able to see expected functions/statements output right away
 without launching them.
 
 > _You might also be interested in 🤖 [Interactive Machine Learning Experiments](https://github.com/trekhleb/machine-learning-experiments)_
 
-## How to Use This Repository
+## h2 How to Use This Repository
 
 Each Python script in this repository has the following structure:
 
@@ -56,7 +56,7 @@ def test_list_type():
     assert squares[-3:] == [9, 16, 25]  # <-- Assertions here illustrate the result.
 ```
 
-So normally you might want to do the following:
+So, normally you might want to do the following:
 
 - [Find the topic](#table-of-contents) you want to learn or recap.
 - Read comments and/or documentation that is linked in each script's docstring (as in example above). 
@@ -65,7 +65,7 @@ So normally you might want to do the following:
 - [Run tests](#testing-the-code) and [lint the code](#linting-the-code) to see if it work and is 
 written correctly.
 
-## Table of Contents
+## h2 Table of Contents
 
 1. **Getting Started**
     - [What is Python](src/getting_started/what_is_python.md)
@@ -135,7 +135,7 @@ written correctly.
 12. **User input**
     - [Terminal input](src/user_input/test_input.py) (`input` statement)
 
-## Prerequisites
+## h2 Prerequisites
 
 **Installing Python**
 
@@ -166,7 +166,7 @@ Install all dependencies that are required for the project by running:
 pip install -r requirements.txt
 ```
 
-## Testing the Code
+## h2 Testing the Code
 
 Tests are made using [pytest](https://docs.pytest.org/en/latest/) framework.
 
@@ -185,11 +185,11 @@ To run specific tests please execute:
 pytest ./path/to/the/test_file.py
 ```
 
-## Linting the Code
+## h2 Linting the Code
 
 Linting is done using [pylint](http://pylint.pycqa.org/) and [flake8](http://flake8.pycqa.org/en/latest/) libraries.
 
-### PyLint
+### h3 PyLint
 
 To check if the code is written with respect
 to [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide please run:
@@ -207,7 +207,7 @@ pylint --help-msg=missing-docstring
 
 [More about PyLint](http://pylint.pycqa.org/)
 
-### Flake8
+### h3 Flake8
 
 To check if the code is written with respect
 to [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide please run:
@@ -224,6 +224,6 @@ flake8 ./src --statistics --show-source --count
 
 [More about Flake8](http://flake8.pycqa.org/en/latest/)
 
-## Author
+## h2 Author
 
 - [@trekhleb](https://trekhleb.dev)

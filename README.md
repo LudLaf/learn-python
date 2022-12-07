@@ -69,6 +69,8 @@ So, normally you might want to do the following:
 - [Run tests](#testing-the-code) and [lint the code](#linting-the-code) to see if it work and is 
 written correctly.
 
+</details>
+
 <details id=3 close>
 <summary><h2>Estep three: Table of Contents</h2></summary>
 
@@ -142,7 +144,8 @@ written correctly.
 
 </details>
 
-## h2 Prerequisites
+<details id=4 close>
+<summary><h2>Estep four: Prerequisites</h2></summary>
 
 **Installing Python**
 
@@ -172,6 +175,8 @@ Install all dependencies that are required for the project by running:
 ```bash
 pip install -r requirements.txt
 ```
+
+</details>
 
 ## h2 Testing the Code
 

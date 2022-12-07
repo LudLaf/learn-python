@@ -1,9 +1,14 @@
-# h1 Playground and Cheatsheet for Learning Python
+
+
+<details id=1 open>
+<summary><h2>Estep one: Playground and Cheatsheet for Learning Python</h2></summary>
 
 > 🇺🇦 UKRAINE [IS BEING ATTACKED](https://war.ukraine.ua/) BY RUSSIAN ARMY. CIVILIANS ARE GETTING KILLED. RESIDENTIAL AREAS ARE GETTING BOMBED.
 > - Help Ukraine via [National Bank of Ukraine](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi)
 > - Help Ukraine via [SaveLife](https://savelife.in.ua/en/donate-en/) fund
 > - More info on [war.ukraine.ua](https://war.ukraine.ua/) and [MFA of Ukraine](https://twitter.com/MFA_Ukraine)
+
+</details>
 
 <hr/>
 
@@ -27,7 +32,8 @@ without launching them.
 
 > _You might also be interested in 🤖 [Interactive Machine Learning Experiments](https://github.com/trekhleb/machine-learning-experiments)_
 
-## h2 How to Use This Repository
+<details id=2 open>
+<summary><h2>Estep two: How to Use This Repository</h2></summary>
 
 Each Python script in this repository has the following structure:
 
